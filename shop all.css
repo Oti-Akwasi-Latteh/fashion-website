@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+  
+}
+
+body{
+    background-color:white;
+}
+nav{
+
+    color: black;
+     padding-right:0px;
+     margin-left: 0px; 
+    }
+    nav {
+       background-color:white;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav a{
+        padding: 10px,30px ;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    nav a:hover{
+        background: linear-gradient(to right, red, rgb(5, 239, 5), blue);
+        opacity:0.8;
+        border-radius: 10px;
+        opacity:0.8;   
+    }
+    
+   
+    .box{
+        margin-left: 20px;
+    }
+    .box a{
+        padding: 10px 30px;
+    }
+    
+    input[type=text] {
+        background-color:black;
+        height:30px;
+        width:200px;
+        border-radius:20px;
+        margin-left:150px;
+        font-size:17px;
+        border: transparent;
+        color:white;
+        }
+        .add{
+           display:flex;
+           position:absolute;
+           top:380px;
+        }
+        .exp{
+            display:flex;
+            position:absolute;
+            font-size:25px;
+            margin-left:230px;
+            margin-left:270px;
+        }
+        .men{
+            display:flex;
+            position:absolute;
+            font-size:30px;
+            margin-left:270px;
+            margin-top:50px;
+            background-color:orange;
+            color:black;
+            border-radius:5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .col{
+            display:flex;
+            position:absolute;
+            font-size:30px;
+            margin-left:240px;
+            margin-top: 90px;
+        }
+        .women{
+            display:flex;
+            position:absolute;
+            top:380px;
+            margin-left: 600px;
+        }
+        .girls{
+            display:flex;
+            position:absolute;
+            top:382px;
+            margin-left: 830px;
+            font-size: 20px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border:none;
+            background-color:yellow;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .couple{
+            display:flex;
+            position: absolute;
+            top:380px;
+            margin-left: 85%;
+        }
+        
+        .ppl{
+            display:flex;
+            position: absolute;
+            top:52%;
+            margin-left: 86%;
+            text-decoration: none;
+        }
+        .social{
+            position: relative;
+            margin-top: 180px;
+            padding:10px;
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+            gap:10px;
+            place-items: center;
+            }
+             
+             .text{
+                 padding-left: 50px;
+             }
+             .soc{
+                display:flex;
+                position:absolute;
+                width:98%;
+                height:75px;
+                top:90%;
+            }
+            .soc{
+                display:flex;
+                position:absolute;
+                width:98%;
+                height:70px;
+                top:90%;
+                
+            }
+       

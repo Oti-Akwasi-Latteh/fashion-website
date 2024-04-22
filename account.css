@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+  
+}
+
+body{
+    background-color:white;
+}
+nav{
+
+    color: black;
+     padding-right:0px;
+     margin-left: 0px; 
+    }
+    nav {
+       background-color:white;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav a{
+        margin-right: 70px;
+        padding: 10px,30px ;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    nav a:hover{
+        background: linear-gradient(to right, red, rgb(5, 239, 5), blue);
+        opacity:0.8;
+        border-radius: 10px;
+        opacity:0.8;   
+    }
+    
+   
+    .box{
+        margin-left: 20px;
+    }
+    .box a{
+        padding: 10px 30px;
+    }
+    
+
+    .section{
+        display:inline;
+        position:absolute;
+        margin-top:10%;
+        padding-left:75%;
+    }
+
+    .kira{
+    height:700px;
+    width: 700px;
+    }
+
+    .login{
+        display:flex;
+        position:absolute;
+        top:20%;
+        margin-left:65%;
+        font-size: 20px;
+    }
+    .input-2{
+        display:flex;
+        position:absolute;
+        top:0;
+        border-color:black;
+        background-color:rgba(223, 219, 219, 0.886);
+        height:40px;
+        width:600px;
+        margin-top:18%;
+        margin-left:52%;
+        border: transparent;
+    }
+
+    .input-3{
+        display:flex;
+        position:absolute;
+        top:0;
+        border-color:black;
+        background-color:rgba(223, 219, 219, 0.886);
+        height:40px;
+        width:600px;
+        margin-top:22%;
+        margin-left:52%;
+        border: transparent;
+    }
+    .input-4{
+        display:flex;
+        position:absolute;
+        top:0;
+        border-color:black;
+        background-color:rgba(223, 219, 219, 0.886);
+        height:40px;
+        width:600px;
+        margin-top:26%;
+        margin-left:52%;
+        border: transparent;
+    }
+    .create{
+        display:flex;
+    position:absolute;
+    top:62%;
+   justify-content: center;
+    margin-left:55%;
+    padding:15px 30px;
+    background-color:rgb(252, 114, 114);
+    color:white;
+    cursor: pointer;
+    }
+
+    .signing{
+        display:flex;
+    position:absolute;
+    top:62%;
+   justify-content: center;
+    margin-left:78%;
+    padding:15px 50px;
+    background-color:black;
+    color:white;
+    cursor: pointer;
+    }
+    
+    .search-button{
+            width:100%;
+            max-width:500px;
+            background-color:rgba(223, 219, 219, 0.886);
+            display:flex;
+            position:absolute;
+            top:72%;
+             margin-left:53%;
+            padding:10px 20px;
+    }
+    .app{
+background:transparent;
+flex:1;
+border:none;
+outline:none;
+font-size:20px;
+color:black;
+margin-left:30px;
+    }
+    .geo{
+        margin-left:60px;
+    }
+    .log{
+        display:block;
+        position:absolute;
+        top:90%;
+        background:transparent;
+        border:none;
+       outline:none;
+       justify-content: center;
+        margin-left:73%;
+        padding:15px 30px;
+        color:black;
+        cursor: pointer;
+        font-size:18px;
+    }
+    .account{
+        display:block;
+        position:absolute;
+        top:90%;
+       justify-content: center;
+        margin-left:58%;
+        padding:15px 30px;
+        color:black;
+        cursor: pointer;
+        font-size:15px;
+    }
