@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Shop</title>
+    <link rel="stylesheet" href="./css/account.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Liter&family=Noto+Serif+Hentaigana:wght@200..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="head">
+        <nav class="menue">
+    
+         <h1>Mac Shop</h1>
+              <div class="box">
+  <a href="index.html">HOME</a>
+  <a href="product.html">PRODUCTS</a>
+
+  <div class="dropdown">
+    <a href="account.html" class="dropbtn">ACCOUNT <i class="fa fa-caret-down"></i></a>
+    <div class="dropdown-content">
+      <a href="contact.html">CONTACT US</a>
+      <a href="about.html">ABOUT</a>
+      <a href="categories.html">CATEGORIES</a>
+    </div>
+  </div>
+ 
+</div>
+        
+    </nav>
+     </div>
+     
+     <div class="main-layout">
+  <img class="kira" src="./images/shopping-bag-city-black-woman-with-retail-sales-discount-wealth-portrait-fashion-clothes-cosmetics-rich-success-happy-young-gen-z-customer-shopping-urban-street-mall_590464-95134.avif" alt="">
+  
+  <div class="container">
+    <div class="auth-box">
+      <!-- your auth content -->
+    </div>
+  </div>
+</div>
+
+      <div class="container">
+        <div class="auth-box">
+            <div class="auth-header">
+                <h1 id="auth-title">Sign In</h1>
+                <div class="auth-toggle">
+                    <button id="signin-btn" class="toggle-btn active">Sign In</button>
+                    <button id="login-btn" class="toggle-btn">Login</button>
+                </div>
+            </div>
+            
+            <!-- Sign In Form -->
+            <form id="signin-form" class="auth-form" >
+                <div class="form-group">
+                    <input type="text" id="signin-username" placeholder="Username" name="text" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="signin-email" placeholder="Email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="signin-password" placeholder="Password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="signin-confirm-password" placeholder="Confirm Password" name="password" required>
+                </div>
+                <button type="submit" class="auth-submit-btn">Sign In</button>
+            </form>
+
+            <!-- Login Form -->
+            <form id="login-form" class="auth-form hidden">
+                <div class="form-group">
+                    <input type="text" id="login-username" placeholder="Username or Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="login-password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="auth-submit-btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./JS/all.js"></script>
+
+     </body>
+     </html>

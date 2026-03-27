@@ -1,0 +1,321 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:rgba(223, 219, 219, 0.886);
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* ================= NAVBAR ================= */
+
+nav{
+    background:white;
+    font-size:20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 40px;
+    flex-wrap:wrap;
+}
+
+nav h1{
+    font-size:24px;
+}
+
+/* NAV LINKS */
+
+.box{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+    font-weight:bold;
+    padding:10px 15px;
+}
+
+nav a:hover{
+    background:linear-gradient(to right, red, rgb(5,239,5), blue);
+    border-radius:10px;
+}
+
+/* ================= SEARCH ================= */
+
+.search{
+    position:relative;
+}
+
+.search input{
+    background:black;
+    height:35px;
+    width:250px;
+    border-radius:20px;
+    padding-left:15px;
+    font-size:16px;
+    border:none;
+    color:white;
+}
+
+.search i{
+    position:absolute;
+    right:10px;
+    top:9px;
+    color:white;
+}
+
+/* ================= DROPDOWN ================= */
+
+.dropdown{
+    position:relative;
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background:white;
+    min-width:160px;
+    box-shadow:0 8px 16px rgba(0,0,0,0.2);
+    border-radius:5px;
+}
+
+.dropdown-content a{
+    display:block;
+    padding:10px;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+
+.cart-container {
+  position: relative;
+}
+
+#cart-count {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+/* ================= HERO SECTION ================= */
+
+.section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:60px;
+}
+
+.new{
+    font-size:28px;
+}
+
+.just,.for{
+    font-size:90px;
+}
+
+.YOU{
+    color:rgb(224,65,65);
+    font-size:70px;
+}
+
+/* ================= IMAGE ================= */
+
+.fendi{
+    position:absolute;
+    right:8%;
+    top:200px;
+    max-width:450px;
+    width:100%;
+    border-radius:50%;
+    transition:transform 0.6s ease;
+}
+
+.fendi:hover{
+    transform:scale(1.1);
+}
+
+/* ================= ADVERT BUTTONS ================= */
+
+.advert{
+    display:flex;
+    gap:20px;
+    margin-top:30px;
+    padding-left:60px;
+}
+
+.online{
+    height:60px;
+    width:170px;
+    background:black;
+    color:white;
+    font-size:18px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:none;
+}
+
+.discount{
+    height:60px;
+    width:130px;
+    background:rgb(200,139,25);
+    font-size:18px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:none;
+}
+
+/* ================= FOOTER ================= */
+
+.copy{
+    position:relative;
+    background:#111;
+    color:white;
+    text-align:center;
+    margin-top:120px;
+    padding:50px 20px;
+}
+
+/* footer text */
+
+.footer-text{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    font-size:18px;
+}
+
+/* footer logo */
+
+.footer-logo{
+    position:absolute;
+    top:20px;
+    left:20px;
+    width:60px;
+    height:auto;
+}
+
+/* hover effect */
+
+.footer-text p{
+    transition:0.3s;
+}
+
+.footer-text p:hover{
+    color:#667eea;
+}
+
+/* ================= TABLET ================= */
+
+@media (max-width:1024px){
+
+nav{
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+
+.section{
+    padding:40px;
+}
+
+.just,.for{
+    font-size:60px;
+}
+
+.YOU{
+    font-size:45px;
+}
+
+.fendi{
+    position:static;
+    margin:40px auto;
+    display:block;
+}
+
+.advert{
+    padding-left:40px;
+}
+
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width:600px){
+
+nav{
+    padding:10px;
+}
+
+
+
+.search input{
+    width:180px;
+}
+
+.section{
+    padding:30px;
+}
+
+.just,.for{
+    font-size:40px;
+}
+
+.YOU{
+    font-size:32px;
+}
+
+.advert{
+    flex-direction:column;
+    padding-left:30px;
+}
+
+.online,
+.discount{
+    width:100%;
+}
+
+/* footer responsive */
+
+.footer-logo{
+    position:static;
+    display:block;
+    margin:0 auto 15px;
+}
+
+.footer-text{
+    font-size:16px;
+}
+
+}
+
+.logout-btn{
+    height:30px;
+    width:150px;
+    cursor:pointer;
+}
+
+
+
+.home-header{
+    background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);
+    color:white;
+    padding:20px;
+}
